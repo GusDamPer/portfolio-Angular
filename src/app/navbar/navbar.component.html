@@ -1,0 +1,65 @@
+<!-- barra de navegación -->
+<nav class="navbar navbar-expand-lg bg-light"> 
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">
+        <img src="/assets/Logo_Argentina_Programa.png" alt="Logo" width="80" class="d-inline-block align-text-center">
+          #YoProgramo
+      </a>
+
+      <ul id="redes" class="list-group list-group-horizontal">
+        <li class="list-group-item">
+          <a class="navbar-brand" href="https://www.linkedin.com/in/gustavo-p%C3%A9rez-1b053616/">
+            <i class="fa-brands fa-linkedin fa-lg"></i>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a class="navbar-brand" href="https://www.facebook.com/gustavo.perez.0503">
+            <i class="fa-brands fa-square-facebook fa-lg"></i>
+          </a>
+        </li>
+        <li class="list-group-item">
+          <a class="navbar-brand" href="https://www.instagram.com/gustavodperez/">
+            <i class="fa-brands fa-instagram fa-lg"></i>
+          </a>
+        </li>
+        <li class="list-group-item">  
+          <!-- Button trigger modal para el Login -->
+          <button id="login" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+            <i class="fa-solid fa-right-to-bracket fa-lg"></i>
+              Login
+          </button> 
+        </li>
+      </ul>
+        
+    </div>
+</nav>
+
+<!-- Modal del Login -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar sesión</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Formulario para ingreso -->
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+          </form>
+          <!-- fin del formulario -->
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Ingresar</button>
+        </div>
+      </div>
+    </div>
+</div> <!-- fin del Modal -->
