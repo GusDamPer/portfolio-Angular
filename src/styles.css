@@ -27,6 +27,8 @@ body {
 #redes {
     --bs-btn-padding-x: 0;
     --bs-btn-padding-y: 0;
+    display: flex;
+    align-items: center;
 }
 
 .presentacion {

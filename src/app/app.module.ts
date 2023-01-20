@@ -10,6 +10,7 @@ import { ExpeEduComponent } from './expe-edu/expe-edu.component';
 import { AcercadeComponent } from './acercade/acercade.component';
 import { PresentacionComponent } from './presentacion/presentacion.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     ExpeEduComponent,
     AcercadeComponent,
     PresentacionComponent,
-    NavbarComponent // * y los declaramos
+    NavbarComponent,
+    FooterComponent // * y los declaramos
   ],
   imports: [
     BrowserModule
