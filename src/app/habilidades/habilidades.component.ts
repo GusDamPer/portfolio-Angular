@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PorfolioService } from '../servicios/porfolio.service';
 
 @Component({
   selector: 'app-habilidades',
@@ -7,8 +8,13 @@ import { Component } from '@angular/core';
 })
 export class HabilidadesComponent {
 
+  constructor(private datosPorfolio:PorfolioService){}
+
+  ngOnInit():void{
+
+  }
 }
 
 
-// al crear un componente desde CLI las importaciones y exportaciones 
+// al crear un componente desde CLI las importaciones y exportaciones
 // se hacen automaticamente

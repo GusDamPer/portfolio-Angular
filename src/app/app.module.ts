@@ -11,6 +11,8 @@ import { AcercadeComponent } from './acercade/acercade.component';
 import { PresentacionComponent } from './presentacion/presentacion.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+//(5a) Importamos el módulo HttpClient para obtener los recursos del servidor.
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,10 +23,12 @@ import { FooterComponent } from './footer/footer.component';
     AcercadeComponent,
     PresentacionComponent,
     NavbarComponent,
-    FooterComponent // * y los declaramos
+    FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    //(5b) lo especificamos aquí tambien para poder utilizarlo.
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

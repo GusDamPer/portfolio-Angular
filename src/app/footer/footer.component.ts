@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PorfolioService } from '../servicios/porfolio.service';
 
 @Component({
   selector: 'app-footer',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  constructor(private datosPorfolio:PorfolioService){}
+
+  ngOnInit():void{
+
+  }
 }

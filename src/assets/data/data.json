@@ -1,0 +1,71 @@
+{
+  "name": "Gustavo D. Pérez",
+  "backImage": "/assets/banner.jpg",
+  "image": "/assets/foto-perfil.jfif",
+  "position1": "Full Stack Developer Junior",
+  "position2": "Técnico Superior en Tecnología de los Alimentos",
+
+  "ubication": "Concordia, Entre Ríos (Argentina) ",
+  "aboutTitle": "",
+  "about": "Me recibí de Técnico Superior en Tecnología de los Alimentos en la Universidad de Entre Ríos. Actualmente mi desafío es convertirme en un Desarrollador Web Full Stack. Me gusta aprender y desarrollar nuevas habilidades de todo tipo.",
+  "experience": [
+      {
+          "position": "Laboratorio de control de calidad en EDOS",
+          "company": "Ente Descentralizado de Obras Sanitarias",
+          "img": "/assets/logo_EDOS.jpg",
+          "mode": "",
+          "start": "2011",
+          "end": "actualidad",
+          "timeelapsed": ""
+      },
+      {
+          "position": "Museo Interactivo de Ciencias",
+          "company": "CAFESG",
+          "img": "/assets/logo_MIC_CAFESG.jpg",
+          "mode": "",
+          "start": "2015",
+          "end": "2016",
+          "timeelapsed": ""
+      }
+  ],
+  "education": [
+      {
+          "school": "Argentina Programa",
+          "title": "Full Stack Developer",
+          "img": "/assets/logo_Arg_Prog.jpg",
+          "end": "2023"
+      },
+      {
+          "school": "Universidad de Entre Ríos",
+          "title": "Técnico Superior en Tecnología de los Alimentos",
+          "img": "/assets/logo_UNER.png",
+          "end": "2020"
+      },
+      {
+          "school": "EET N°1 Brig Gral Pascual Echagüe",
+          "title": "Técnico Electromecánico",
+          "img": "/assets/logo_EETN1.png",
+          "end": "2005"
+      }
+  ],
+  "skill": [
+      {
+          "detail": "Resolución de problemas",
+          "percentage": "75%"
+      },
+      {
+          "detail": "Diseño de sistemas",
+          "percentage": "50%"
+      }
+  ],
+  "projects": [
+      {
+          "title": "e-Farmacia",
+          "description": "Desarrollamos un sitio web de comercio electrónico FrontEnd basado en Angular de alto tráfico con diseño innovador basado en UIX. Totalmente integrado con los sistemas CRM y ERP internos."
+      },
+      {
+          "title": "Sistema de Monitoreo",
+          "description": "Desarrollamos un BackEnd basado en API Rest con la técnologia Spring Boot para proveer datos de monitoreo a aplicaciones distribuidas, también el desarrollo de interface entre sistemas de gestión para automatizar procesos."
+      }
+  ]
+}

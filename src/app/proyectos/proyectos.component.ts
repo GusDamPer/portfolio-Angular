@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PorfolioService } from '../servicios/porfolio.service';
 
 @Component({
     selector: 'app-proyectos',
@@ -11,7 +12,11 @@ import { Component } from '@angular/core';
 
 export class ProyectosComponent {
 
+  constructor(private datosPorfolio:PorfolioService){}
 
+  ngOnInit():void{
+
+  }
 
     nombre: string = 'Gustavo Perez';
 
