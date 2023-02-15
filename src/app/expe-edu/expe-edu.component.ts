@@ -9,6 +9,7 @@ import { PorfolioService } from '../servicios/porfolio.service'; //(3)*
 export class ExpeEduComponent {
 
   miPorfolio:any; //(9a) variable de tipo any.
+  experienciaList:any; //(10a) se crea la variable para recorrer las listas
 
   //(2)Se crea el constructor y se agrega la referencia *(3) arriba.
   constructor(private datosPorfolio:PorfolioService){}
@@ -20,6 +21,7 @@ export class ExpeEduComponent {
       console.log(data);
 
       this.miPorfolio = data; //(9b) asignamos a la variable definida
+      this.experienciaList=data.experience; //(10b)
     });
   }
 
