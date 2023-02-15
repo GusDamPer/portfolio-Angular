@@ -12,46 +12,30 @@
         </div>
       </div>
 
+      <ul class="items-list">
+        <li *ngFor="let experiencia of experienciaList">
+          <!-- Para recorrer la lista del data.json -->
+          <div class="row justify-content-between contenido">
+            <h2>{{experiencia.company}}</h2>
+              <div class="col-2 text-center">
+                <img class="logo" [src]="experiencia.img" alt="Logo EDOS">
+              </div>
+              <div class="col-8">
+                <h4>{{experiencia.position}}</h4>
+              <h5>{{experiencia.start}} - {{experiencia.end}}</h5>
+              </div>
+              <div class="col-2 text-center">
+                <button type="button" class="btn btn-light m-1">
+                  <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <button type="button" class="btn btn-light m-1">
+                  <i class="fa-solid fa-trash"></i>
+                </button>
+              </div>
+          </div>
+        </li>
+      </ul>
 
-        <div class="row justify-content-between contenido">
-          <h2>Experiencia 1</h2>
-            <div class="col-2 text-center">
-              <img class="logo" src="/assets/logo_EDOS.jpg" alt="Logo EDOS">
-            </div>
-            <div class="col-8">
-              <h4>Laboratorio de control de calidad en EDOS</h4>
-            <h5>2011 - actualidad</h5>
-            </div>
-            <div class="col-2 text-center">
-              <button type="button" class="btn btn-light m-1">
-                <i class="fa-solid fa-pen-to-square"></i>
-              </button>
-              <button type="button" class="btn btn-light m-1">
-                <i class="fa-solid fa-trash"></i>
-              </button>
-            </div>
-        </div>
-
-        <br>
-        <div class="row justify-content-between contenido">
-          <h2>Experiencia 2</h2>
-            <div class="col-2 text-center">
-              <img class="logo" src="/assets/logo_MIC_CAFESG.jpg" alt="Logo MIC CAFESG">
-            </div>
-            <div class="col-8">
-              <h4>Museo Interactivo de Ciencias</h4>
-            <h5>2015 - 2016</h5>
-            </div>
-            <div class="col-2 text-center">
-              <button type="button" class="btn btn-light m-1">
-                <i class="fa-solid fa-pen-to-square"></i>
-              </button>
-              <button type="button" class="btn btn-light m-1">
-                <i class="fa-solid fa-trash"></i>
-              </button>
-            </div>
-        </div>
-        <br>
     </article>
 
     <!-- Educacion -->
