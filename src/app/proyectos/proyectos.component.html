@@ -1,7 +1,7 @@
 <section class="seccion">
   <div class="row">
     <div class="col-10">
-      <h2 class="tit1">Proyectos</h2>
+      <h2 class="tit1">Proyectos (a modo de ejemplo)</h2>
     </div>
     <div class="col-2 text-center">
       <button type="button" class="btn btn-light">
@@ -9,31 +9,24 @@
       </button>
     </div>
   </div>
-  <div class="row">
-    <div class="col-10 contenido">
-      <a href="http://"><h4>Proyecto A</h4></a>
-      <h4>Descripción</h4>
-    </div>
-    <div class="col-2 text-center">
-      <button type="button" class="btn btn-light m-1">
-        <i class="fa-solid fa-pen-to-square"></i>
-      </button>
-      <button type="button" class="btn btn-light m-1">
-        <i class="fa-solid fa-trash"></i>
-      </button>
-    </div>
-    <br>
-    <div class="col-10 contenido">
-      <a href="http://"><h4>Proyecto B</h4></a>
-      <h4>Descripción</h4>
-    </div>
-    <div class="col-2 text-center">
-      <button type="button" class="btn btn-light m-1">
-        <i class="fa-solid fa-pen-to-square"></i>
-      </button>
-      <button type="button" class="btn btn-light m-1">
-        <i class="fa-solid fa-trash"></i>
-      </button>
-    </div>
-  </div>
+
+  <ul class="items-list">
+    <li *ngFor="let proyecto of proyectosList">
+      <div class="row">
+        <div class="col-10 contenido">
+          <a href="http://"><h4>{{proyecto.title}}</h4></a>
+          <h4>{{proyecto.description}}</h4>
+        </div>
+        <div class="col-2 text-center">
+          <button type="button" class="btn btn-light m-1">
+            <i class="fa-solid fa-pen-to-square"></i>
+          </button>
+          <button type="button" class="btn btn-light m-1">
+            <i class="fa-solid fa-trash"></i>
+          </button>
+        </div>
+      </div>
+    </li>
+  </ul>
+
 </section>

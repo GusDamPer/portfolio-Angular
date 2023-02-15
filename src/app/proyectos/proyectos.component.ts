@@ -12,18 +12,17 @@ import { PorfolioService } from '../servicios/porfolio.service';
 
 export class ProyectosComponent {
 
+  miPorfolio: any;
+  proyectosList: any;
+
   constructor(private datosPorfolio:PorfolioService){}
 
   ngOnInit():void{
+    this.datosPorfolio.obtenerDatos().subscribe(data =>{ //(8) me suscribo al observable
+      console.log(data);
 
+      this.miPorfolio = data; //(9b) asignamos a la variable definida
+      this.proyectosList = data.projects;
+    });
   }
-
-    nombre: string = 'Gustavo Perez';
-
-    persona = {
-        nombre: 'Gustavo',
-        edad: 36
-    };
-    // interpolacion, para usarlo en elcomponente dentro de {{}}
-    // sirve solo para este componente y ninguno mas.
 }

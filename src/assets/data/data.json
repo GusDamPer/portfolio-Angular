@@ -51,11 +51,11 @@
   "skill": [
       {
           "detail": "Resolución de problemas",
-          "percentage": "75%"
+          "percentage": "width: 75%"
       },
       {
           "detail": "Diseño de sistemas",
-          "percentage": "50%"
+          "percentage": "width: 50%"
       }
   ],
   "projects": [

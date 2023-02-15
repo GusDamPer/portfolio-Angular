@@ -38,7 +38,7 @@ body {
     border-radius: .5em;
     border: 1px solid #aaa;
     box-shadow: 1px 1px 2px 0 #000;
-}    
+}
 
 .banner {
     width: 100%;
@@ -101,3 +101,6 @@ h5 {
     padding: 15px 20px;
 }
 
+ul {
+  list-style: none;
+}
