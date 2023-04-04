@@ -1,46 +1,41 @@
 <!-- barra de navegación -->
-<nav class="navbar navbar-expand-lg bg-light"> 
-    <div class="container-fluid">
-      <a class="navbar-brand" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">
-        <img src="/assets/Logo_Argentina_Programa.png" alt="Logo" width="120" class="d-inline-block align-text-center">
-          #YoProgramo
-      </a>
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">
+      <img src="/assets/Logo_Argentina_Programa.png" alt="Logo" width="80" class="d-inline-block align-text-center">
+      <span id="yoProgramo">#YoProgramo</span>
+    </a>
 
-      <ul id="redes" class="list-group list-group-horizontal">
-        <li class="list-group-item">
-          <!-- Linkedin -->
-          <a class="navbar-brand" href="https://www.linkedin.com/in/gustavo-p%C3%A9rez-1b053616/">
-            <i class="fa-brands fa-linkedin fa-lg"></i>
-          </a>
-        </li>
-        <li class="list-group-item">
-          <!-- Insagram -->
-          <a class="navbar-brand" href="https://www.instagram.com/gustavodperez/">
-            <i class="fa-brands fa-instagram fa-lg"></i>
-          </a>
-        </li>
-        <li class="list-group-item">
-          <!-- Facebook -->
-          <a class="navbar-brand" href="https://www.facebook.com/gustavo.perez.0503">
-            <i class="fa-brands fa-square-facebook fa-lg"></i>
-          </a>
-        </li>
-        <li class="list-group-item">
-          <!-- Github -->
-          <a class="navbar-brand" href="https://github.com/GusDamPer">
-            <i class="fa-brands fa-github fa-lg"></i>
-          </a>
-        </li>
-        <li class="list-group-item">  
-          <!-- Button trigger modal para el Login -->
-          <button id="login" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
-            <i class="fa-solid fa-right-to-bracket fa-lg"></i>
-              Login
-          </button> 
-        </li>
-      </ul>
-        
+    <div id="toggle-menu" class="toggle-menu">
+      <i class="fa-solid fa-bars fa-lg"></i>
     </div>
+
+    <ul id="list-group" class="list-group list-group-horizontal">
+      <li class="list-group-item">
+        <a class="navbar-brand" href="https://www.linkedin.com/in/gustavo-p%C3%A9rez-1b053616/">
+          <i class="fa-brands fa-linkedin fa-lg"></i>
+        </a>
+      </li>
+      <li class="list-group-item">
+        <a class="navbar-brand" href="https://github.com/GusDamPer">
+          <i class="fa-brands fa-square-github fa-lg"></i>
+        </a>
+      </li>
+      <li class="list-group-item">
+        <a class="navbar-brand" href="https://www.instagram.com/gustavodperez/">
+          <i class="fa-brands fa-square-instagram fa-lg"></i>
+        </a>
+      </li>
+      <li class="list-group-item">
+        <!-- Button trigger modal para el Login -->
+        <button id="login" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
+          <i class="fa-solid fa-right-to-bracket fa-lg"></i>
+            Login
+        </button>
+      </li>
+    </ul>
+
+  </div>
 </nav>
 
 <!-- Modal del Login -->
