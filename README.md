@@ -1,5 +1,9 @@
 # MyApp
 
+Frontend en Angular para Argentina Programa, con backend básico utilizando un archivo .json como base de datos.
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
 
 ## Development server
